@@ -10,7 +10,7 @@ interface PDFViewerProps {
   scale: number
   onLoadSuccess: ({ numPages }: { numPages: number }) => void
   onLoadError: (error: Error) => void
-  onPageSuccess: (page: any) => void
+  onPageSuccess: (page: unknown) => void
 }
 
 export default function PDFViewer({
