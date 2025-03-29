@@ -41,7 +41,7 @@
 //   }
 // }
 
-import { PDFDocument, rgb, degrees } from "pdf-lib";
+import { PDFDocument, rgb, } from "pdf-lib";
 import { Annotation } from "./types";
 
 export async function saveAnnotatedPdf(

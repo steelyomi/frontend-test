@@ -14,8 +14,8 @@ interface AnnotationToolbarProps {
 export default function AnnotationToolbar({
   currentTool,
   setCurrentTool,
-  currentColor,
-  setCurrentColor,
+//   currentColor,
+//   setCurrentColor,
 }: AnnotationToolbarProps) {
   const tools = [
     {
